@@ -1,7 +1,7 @@
 import os
 from shodankey import token
 
-token_file = "tokens.txt"
+token_file = input("Enter your file containing the tokens [Case Sensitive] : ")
 
 if os.path.exists(token_file):
     with open(token_file, "r") as file:
